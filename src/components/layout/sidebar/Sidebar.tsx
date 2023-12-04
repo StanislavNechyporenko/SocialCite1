@@ -20,8 +20,8 @@ export function Sidebar() {
         <Link href="/settings">
           <Settings />
         </Link>
+        <Sun />
       </div>
-      <Sun />
     </aside>
   );
 }
