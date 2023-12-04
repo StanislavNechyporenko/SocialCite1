@@ -7,7 +7,7 @@ export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
       <Image src="/arc.svg" priority alt="" width={50} height={50} />
-      <div>
+      <>
         <Link href="/friends">
           <Users2 />
         </Link>
@@ -20,7 +20,7 @@ export function Sidebar() {
         <Link href="/settings">
           <Settings />
         </Link>
-      </div>
+      </>
       <Sun />
     </aside>
   );
