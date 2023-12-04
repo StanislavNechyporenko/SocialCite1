@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
+html {
   height: 100%;
-  color: rgb(2, 2, 16);
-  background: linear-gradient(to top rigth, #0f0104, #1f0a14), #0f0104;
+  color: #efeff3;
+  background: linear-gradient(to top right, #0f0104, #1f0a14), #0f0104;
   position: relative;
 }
