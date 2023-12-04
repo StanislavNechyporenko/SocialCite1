@@ -6,7 +6,7 @@ export default function LayoutClient({ children }: PropsWithChildren<unknown>) {
   return (
     <main className={styles.layout}>
       <Sidebar />
-      <section>{children} </section>
+      <section>{children}</section>
     </main>
   );
 }

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Viewport } from 'next'
+import { Viewport } from 'next';
 import { Inter } from 'next/font/google';
 
 import LayoutClient from '@/components/layout/Layout';
