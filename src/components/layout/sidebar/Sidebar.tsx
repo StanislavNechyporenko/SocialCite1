@@ -6,7 +6,7 @@ import Link from 'next/link';
 export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
-      <Image src="/arc.svg" alt="" width={50} height={50} />
+      <Image src="/arс.svg" priority alt="" width={50} height={50} />
       <div>
         <Link href="/friends">
           <Users2 />

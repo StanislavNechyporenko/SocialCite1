@@ -1,10 +1,4 @@
-// .sidebar {
-//   @apply flex items-center flex-col justify-between;
-// }
-
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  @apply flex items-center flex-col justify-between border-r-2;
+  border-color: rgba(255, 255, 255, 0.1);
 }
